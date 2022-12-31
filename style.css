@@ -1,0 +1,144 @@
+
+.nav-link {
+    color: #000000;
+}
+.navbar {
+    margin: 0;
+    padding: 10px;
+    background: #afafaf !important;
+}
+.nav-link {
+    font-weight: 700;
+    background: #c6c7c8;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+li.nav-item a:hover {
+    background: #0e0e0e;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 5px;
+}
+
+.menu span {
+    margin: 0;
+    padding: 0;
+    height: 2px;
+    background: black;
+    width: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+}
+/* message */
+.message {
+    position: fixed;
+    right: 0;
+    z-index: 2;
+    top: 45%;
+}
+.message textarea {
+    width: 100%;
+}
+
+/* slider */
+.slider {
+    text-align: center;
+    height: 350px;
+    position: relative;
+}
+
+.single-slider img{
+
+    width: 100%;
+    height: 550px;
+}
+
+.slider .owl-nav i {
+    display: inline-block;
+    width: 50px;
+    height: 40px;
+    background: #f3f3f3;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    margin-left: 10px;
+    transition: 0.3s;
+    border-radius: 3px;
+}
+.owl-nav button {
+    display: none;
+    outline: none;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    opacity: 0.5;
+}
+.owl-nav .owl-next {
+    right: -95%;
+}
+
+/* country */
+
+.country {
+    margin: 0 20px 20px 20px;
+    margin-top: 250px;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(5, 18%);
+    grid-column-gap: 10px;
+    grid-row-gap: 40px;
+}
+
+.single-contry {
+    display: grid;
+    justify-content: space-evenly;
+    justify-items: center;
+    grid-row-gap: 5px;
+    box-shadow: 5px 4px 10px #333;
+    align-items: center;
+    padding: 10px 10px 75px 10px;
+    border-radius: 10px;
+}
+.single-contry img {
+    width: 100%;
+    height: 125px;
+    margin-bottom: 10px;
+}
+button.customize-btn {
+    border: none;
+    margin: 0;
+    padding: 0;
+    background: #FFF;
+}
+
+
+
+button.customize-btn a {
+    border: none;
+    background-color: #ffca69;
+    display: inline-block;
+    padding: 0 -9px;
+    transition: 0.3s;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+button.customize-btn a:hover {
+    text-decoration: none;;
+    background-color: orange;
+    color: #fff;
+}
+
+/* single country page */
+.single-page-country {
+    display: grid;
+    justify-content: center;
+}
+.single-page-single-contry div {
+    display: grid;
+    text-align: center;
+    margin: 5px 0;
+}
+
+

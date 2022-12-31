@@ -1,0 +1,22 @@
+@media only screen and (max-width: 1125px) {
+    .country {
+       
+        grid-template-columns: repeat(4, 24%);
+    }
+}
+@media only screen and (max-width: 800px) {
+    .country {
+        grid-template-columns: repeat(3, 32%);
+    }
+}
+@media only screen and (max-width: 600px) {
+    .country {
+        grid-template-columns: repeat(2, 48%);
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .country {
+        grid-template-columns: repeat(1, 98%);
+    }
+}
