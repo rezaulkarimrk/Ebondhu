@@ -34,9 +34,9 @@ li.nav-item a:hover {
 /* message */
 .message {
     position: fixed;
-    right: 0;
+    right: 20px;
     z-index: 2;
-    top: 45%;
+    bottom: 20px;
 }
 .message textarea {
     width: 100%;
@@ -45,14 +45,16 @@ li.nav-item a:hover {
 /* slider */
 .slider {
     text-align: center;
-    height: 350px;
+    margin: auto;
+    width: 60%;
+    height: 326px;
     position: relative;
 }
 
-.single-slider img{
-
+.single-slider img {
     width: 100%;
-    height: 550px;
+    height: 400px;
+    margin-top: 5px;
 }
 
 .slider .owl-nav i {
@@ -83,7 +85,7 @@ li.nav-item a:hover {
 
 .country {
     margin: 0 20px 20px 20px;
-    margin-top: 250px;
+    margin-top: 155px;
     display: grid;
     justify-content: space-between;
     grid-template-columns: repeat(5, 18%);
@@ -139,6 +141,18 @@ button.customize-btn a:hover {
     display: grid;
     text-align: center;
     margin: 5px 0;
+}
+.single-page-single-contry {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.medical-allowed {
+    margin-top: 30px;
+    border: 1px solid #e9e9e9;
+    padding: 15px 25px;
+    border-radius: 5px;
 }
 
 
