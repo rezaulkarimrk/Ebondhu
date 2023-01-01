@@ -8,15 +8,32 @@
     .country {
         grid-template-columns: repeat(3, 32%);
     }
+    .slider {
+        width: 70%;
+    }
 }
 @media only screen and (max-width: 600px) {
     .country {
         grid-template-columns: repeat(2, 48%);
+    }
+    .container {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .slider {
+        width: 85%;
     }
 }
 
 @media only screen and (max-width: 400px) {
     .country {
         grid-template-columns: repeat(1, 98%);
+    }
+    .container {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .slider {
+        width: 95%;
     }
 }
